@@ -8,7 +8,7 @@ const roles = [
     accent: "indigo",
     points: [
       "Built React.js features and maintained PHP API endpoints in a legacy monolith, improving delivery speed.",
-      "Integrated a generative AI feature into the Campaign Editor with AI scientists — prompt calls, dynamic content rendering.",
+      "Integrated a generative AI feature into the Campaign Editor with AI scientists, prompt calls, dynamic content rendering.",
       "Implemented Jest and Playwright test coverage; ran on-call rotation via PagerDuty for production reliability.",
       "Built a Go microservice for a core backend workload, improving throughput by 40% over the prior implementation.",
     ],
@@ -21,7 +21,7 @@ const roles = [
     period: "Jul 2020 – Oct 2022",
     accent: "violet",
     points: [
-      "Architected RESTful APIs (NestJS, Laravel) and integrated Stripe, Avalara, Wowza, Shippo — cut response times 35%, automated billing to cut manual work 60%.",
+      "Architected RESTful APIs (NestJS, Laravel) and integrated Stripe, Avalara, Wowza, Shippo cut response times 35%, automated billing to cut manual work 60%.",
       "Implemented JWT auth and RBAC; built Kafka/Redis async pipelines handling 50k+ events/day.",
       "Mentored junior engineers and defined API contracts, boosting delivery velocity 25% and cutting integration defects 30%.",
       "Led technical design and API validation across 4 services, reducing deployment failures by 30%.",
@@ -35,7 +35,7 @@ const roles = [
     period: "May 2019 – Jun 2020",
     accent: "teal",
     points: [
-      "Built full-stack features across 3 client projects — logistics management, search rank tracking, airport booking — on PHP/Laravel + React/Vue.js.",
+      "Built full-stack features across 3 client projects - logistics management, search rank tracking, airport booking on PHP/Laravel + React/Vue.js.",
       "Developed reusable components and backend modules, improving development speed 20% while onboarding across multiple stacks.",
     ],
   },
@@ -47,7 +47,7 @@ const roles = [
     period: "Sep 2016 – May 2019",
     accent: "coral",
     points: [
-      "Built backend modules in PHP for CRM-style platforms — page creation and content publishing for movie, school, and real estate listings.",
+      "Built backend modules in PHP/WordPress for CRM-style platforms - page creation and content publishing for movie, school, and real estate listings.",
       "Built foundational Git/GitHub-based collaborative development workflows.",
     ],
   },

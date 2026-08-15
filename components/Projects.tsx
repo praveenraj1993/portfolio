@@ -18,7 +18,7 @@ const projects = [
     description:
       "High-scale video upload, live-streaming, and social sharing on a unified video social marketplace.",
     contribution:
-      "Orchestrated backend infrastructure end to end — high-performance upload and live-streaming APIs, plus an event-driven job pipeline processing 50k+ background jobs daily at 99.9% completion.",
+      "Orchestrated backend infrastructure end to end, high-performance upload and live-streaming APIs, plus an event-driven job pipeline processing 50k+ background jobs daily at 99.9% completion.",
     stack: ["Laravel", "Node.js", "FFmpeg", "Wowza", "Kafka", "Redis", "AWS S3", "AWS RDS", "MongoDB", "Elasticsearch"],
     metric: "-50% transcoding time",
     accent: "teal",

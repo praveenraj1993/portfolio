@@ -9,7 +9,7 @@ export default function Nav() {
     <nav className="sticky top-0 z-10 border-b border-border bg-canvas/80 px-6 py-4 backdrop-blur md:px-12">
       <div className="mx-auto flex max-w-4xl items-center justify-between">
         <a href="#" className="font-display text-sm font-bold text-ink">
-          Praveen<span className="text-indigo">.</span>
+          Portfolio<span className="text-indigo"></span>
         </a>
         <div className="flex gap-6">
           {links.map((link) => (

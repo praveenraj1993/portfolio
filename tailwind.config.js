@@ -7,53 +7,35 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blueprint: {
-          bg: "#0A1F2E",
-          panel: "#0F2A3D",
-          line: "#1C3E52",
-          lineFaint: "#15304199",
-          text: "#E8EEF2",
-          muted: "#8FA8B8",
-          mutedDim: "#5F7B8C",
-        },
-        copper: {
-          DEFAULT: "#FF8A3D",
-          dim: "#C96A2E",
-        },
-        teal: {
-          DEFAULT: "#4FD1C5",
-          dim: "#3AA89D",
-        },
+        canvas: "#FAFAFC",
+        panel: "#FFFFFF",
+        ink: "#14141F",
+        inkMuted: "#5B5B6B",
+        inkFaint: "#9C9CAE",
+        border: "#ECECF3",
+        indigo: { DEFAULT: "#6366F1", soft: "#EEF0FE" },
+        violet: { DEFAULT: "#A855F7", soft: "#F6EEFE" },
+        teal: { DEFAULT: "#14B8A6", soft: "#E9FBF8" },
+        coral: { DEFAULT: "#FB7185", soft: "#FFEFF1" },
       },
       fontFamily: {
-        display: ["var(--font-space-grotesk)", "sans-serif"],
+        display: ["var(--font-sora)", "sans-serif"],
         body: ["var(--font-inter)", "sans-serif"],
         mono: ["var(--font-plex-mono)", "monospace"],
       },
-      backgroundImage: {
-        grid: "linear-gradient(#1C3E5240 1px, transparent 1px), linear-gradient(90deg, #1C3E5240 1px, transparent 1px)",
-      },
-      backgroundSize: {
-        grid: "32px 32px",
-      },
       keyframes: {
-        "pulse-line": {
-          "0%": { strokeDashoffset: "240" },
-          "100%": { strokeDashoffset: "0" },
+        floaty: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
         },
         fadeUp: {
-          "0%": { opacity: "0", transform: "translateY(12px)" },
+          "0%": { opacity: "0", transform: "translateY(14px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
-        },
-        blink: {
-          "0%, 100%": { opacity: "1" },
-          "50%": { opacity: "0.2" },
         },
       },
       animation: {
-        "pulse-line": "pulse-line 2.4s linear infinite",
-        fadeUp: "fadeUp 0.6s ease-out forwards",
-        blink: "blink 1.6s ease-in-out infinite",
+        floaty: "floaty 6s ease-in-out infinite",
+        fadeUp: "fadeUp 0.7s ease-out forwards",
       },
     },
   },

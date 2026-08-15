@@ -27,7 +27,7 @@ export default function Footer() {
             +1 (437) 254-8126
           </a>
           <a
-            href="#"
+            href="https://linkedin.com/in/praveen-raj-software-engineer/"
             className="w-fit text-blueprint-muted transition-colors hover:text-copper"
           >
             LinkedIn ↗

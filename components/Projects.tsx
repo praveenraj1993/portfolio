@@ -23,6 +23,19 @@ const projects = [
     metric: "-50% transcoding time",
     accent: "teal",
   },
+  {
+    name: "RAG Document Q&A",
+    subtitle: "Personal project, Python + open-source LLM",
+    period: "Oct 2026",
+    description:
+      "Ask questions about your own documents. The app finds the most relevant text and a local open-source LLM answers using only that text.",
+    contribution:
+      "Built chunking, embeddings and semantic search in ChromaDB, with a distance cutoff that refuses unrelated questions instead of letting the model answer from its own knowledge. Exposed as a FastAPI service with pytest tests, packaged with Docker.",
+    stack: ["Python", "FastAPI", "ChromaDB", "Ollama", "Llama 3.2", "pytest", "Docker"],
+    metric: "Refuses off-topic answers",
+    accent: "teal",
+    link: "https://github.com/praveenraj1993/rag-document-qa",
+  },
 ];
 
 const accentSoft: Record<string, string> = {

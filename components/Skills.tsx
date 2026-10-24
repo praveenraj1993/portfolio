@@ -3,14 +3,14 @@ const groups = [
     label: "Languages & frameworks",
     accent: "indigo",
     items: [
-      "TypeScript", "JavaScript (ES6+)", "PHP", "Go", "React.js", "Vue.js",
-      "HTML/CSS", "Node.js", "NestJS", "Express.js", "Laravel", "Blade", "RESTful APIs",
+      "TypeScript", "JavaScript (ES6+)", "Python", "PHP", "Go", "React.js", "Vue.js",
+      "HTML/CSS", "Node.js", "NestJS", "Express.js", "FastAPI", "Laravel", "Blade", "RESTful APIs",
     ],
   },
   {
     label: "Data & messaging",
     accent: "violet",
-    items: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Kafka", "DynamoDB"],
+    items: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Kafka", "DynamoDB", "Elasticsearch", "ChromaDB"],
   },
   {
     label: "Cloud & DevOps",
@@ -23,7 +23,15 @@ const groups = [
   {
     label: "Testing & AI-assisted dev",
     accent: "coral",
-    items: ["Jest", "Playwright", "Vitest", "Mocha", "Cursor", "Claude", "Codex"],
+    items: ["Jest", "Playwright", "Vitest", "Mocha", "pytest", "Cursor", "Claude", "Codex"],
+  },
+  {
+    label: "AI & LLM applications",
+    accent: "indigo",
+    items: [
+      "RAG", "Embeddings", "Semantic search", "Vector search",
+      "Open-source LLMs (Llama via Ollama)", "Prompt engineering",
+    ],
   },
 ];
 

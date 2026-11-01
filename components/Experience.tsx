@@ -4,7 +4,7 @@ const roles = [
     org: "FullStackDevs",
     note: "client: Intuit Mailchimp",
     location: "Canada",
-    period: "Mar 2023 – Jul 2023",
+    period: "Mar 2023 – Present",
     accent: "indigo",
     points: [
       "Built React.js features and maintained PHP API endpoints in a legacy monolith, improving delivery speed.",

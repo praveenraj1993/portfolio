@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Intuit Mailchimp",
     subtitle: "Campaign Editor & SMS Marketing Platform",
-    period: "Mar 2023 – Jul 2023",
+    period: "Mar 2023 – Present",
     description:
       "Marketers build and launch SMS and email campaigns, including AI-assisted content generation inside the Campaign Editor.",
     contribution:
